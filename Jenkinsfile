@@ -35,7 +35,7 @@ pipeline {
             post {
                 always {
                     script {
-                        steps()
+                        step(
                             [
                                 $class                  :   'RobotPublisher',
                                 outputPath              :   'Results',
@@ -47,6 +47,7 @@ pipeline {
                                 unstableThreshold       :   40,
                                 otherFiles              :   "**/*.png,**/*.jpg",
                             ]
+                        )
                     }
                 }
             }
