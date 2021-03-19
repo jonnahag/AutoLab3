@@ -107,7 +107,7 @@ Confirm Credit Card
 
 Confirm booking
     ${text_confirmation}            Get text    xpath://*[@id="questionTextSmall"]
-    Should be equal                 "A Audi Q7 is now ready for pickup 2021-03-08"      "${text_confirmation}"
+    Should be equal                 "A Audi Q7 is now ready for pickup 2021-04-02"      "${text_confirmation}"
 
 Clear all bookings
     Click button                    xpath://*[@id="mypage"]
@@ -126,8 +126,8 @@ I have logged in with correct info
     Login                           jonna.hagberg@iths.se       hagberg
 
 I have chosen rental period
-    Choose startdate                0308    2021-03-08
-    Choose enddate                  0310    2021-03-10
+    Choose startdate                0402    2021-04-02
+    Choose enddate                  0404    2021-04-04
     Click Continue
 
 Chosen a car
