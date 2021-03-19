@@ -6,7 +6,7 @@ Suite Setup                 Begin Web Test
 Suite Teardown              End Web Test
 
 *** Variables ***
-${BROWSER}                  headlesschrome
+${BROWSER}                  chrome
 ${URL}                      http://rental12.infotiv.net/
 
 
