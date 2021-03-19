@@ -114,7 +114,7 @@ Clear all bookings
     Click button                    xpath://*[@id="unBook1"]
     Handle alert
     Click button                    xpath://*[@id="mypage"]
-    wait until page contains		You have no bookings
+    Sleep		                    2 seconds
     Verify no bookings left
 
 Verify no bookings left
