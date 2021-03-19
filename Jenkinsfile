@@ -35,7 +35,7 @@ pipeline {
             post {
                 always {
                     script {
-                        step()
+                        steps()
                             [
                                 $class                  :   'RobotPublisher',
                                 outputPath              :   'Results',
