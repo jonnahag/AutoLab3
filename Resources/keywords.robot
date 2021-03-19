@@ -73,7 +73,7 @@ Book car - Audi Q7
     Verify Car Selection - Audi Q7
 
 Verify Car Selection - Audi Q7
-    ${actual_text}                  Get text    id:questionText
+    ${actual_text}                  Get text    xpath://*[@id="questionText"]
     Should be equal                 "${actual_text}"   "Confirm booking of Audi Q7"
 
 Input CardNumber
@@ -114,7 +114,6 @@ Clear all bookings
     Click button                    xpath://*[@id="unBook1"]
     Handle alert
     Click button                    xpath://*[@id="mypage"]
-    Sleep		                    2 seconds
     Verify no bookings left
 
 Verify no bookings left
