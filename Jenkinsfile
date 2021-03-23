@@ -8,6 +8,7 @@ pipeline {
                     [
                         $class          :       'JacocoPublisher',
                         execPattern     :       'target/*.exec',
+                        classPattern    :       'target/classes',
                     ]
                 )
             }
@@ -19,6 +20,7 @@ pipeline {
                      [
                         $class          :       'JacocoPublisher',
                         execPattern     :       'target/*.exec',
+                        classPattern    :       'target/classes',
                      ]
                 )
             }
