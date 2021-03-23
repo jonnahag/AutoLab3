@@ -111,6 +111,7 @@ Confirm booking
 
 Clear all bookings
     Click button                    xpath://*[@id="mypage"]
+    Wait until page contains        My bookings
     Click button                    xpath://*[@id="unBook1"]
     Handle alert
     Click button                    xpath://*[@id="mypage"]
