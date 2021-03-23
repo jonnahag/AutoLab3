@@ -4,29 +4,25 @@ pipeline {
         stage('Build') {
             steps {
                 sh "mvn compile"
-                step(
-                    [
-                        $class          :       'JacocoPublisher',
-                        execPattern     :       'target/*.exec',
-                        classPattern    :       'target/classes',
-                    ]
-                )
             }
         }
         stage('Test') {
             steps {
                 sh "mvn test"
-                step(
-                     [
-                        $class          :       'JacocoPublisher',
-                        execPattern     :       'target/*.exec',
-                        classPattern    :       'target/classes',
-                     ]
-                )
             }
             post {
                 always {
                     junit '**/TEST*.xml'
+
+                     step(
+                         [
+                                  $class           : 'JacocoPublisher',
+                                  execPattern      : 'build/jacoco/jacoco.exec',
+                                  classPattern     : 'build/classes/main',
+                                  sourcePattern    : 'src/main/java',
+                                  exclusionPattern : '**/*Test.class'
+                         ]
+                     )
                 }
             }
 
