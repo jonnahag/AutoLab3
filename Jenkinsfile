@@ -15,6 +15,12 @@ pipeline {
         stage('Test') {
             steps {
                 sh "mvn test"
+                step(
+                     [
+                        $class          :       'JacocoPublisher',
+                        execPattern     :       'target/*.exec',
+                     ]
+                )
             }
             post {
                 always {
