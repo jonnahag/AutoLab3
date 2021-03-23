@@ -4,6 +4,11 @@ pipeline {
         stage('Build') {
             steps {
                 sh "mvn compile"
+                step(
+                    [
+                        $class          :       'JacocoPublisher',
+                    ]
+                )
             }
         }
         stage('Test') {
