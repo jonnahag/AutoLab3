@@ -65,7 +65,7 @@ Click Continue
     Verify Rental Dates Are Correct
 
 Verify Rental Dates Are Correct
-    ${actual_text}                  Get text    id:questionText
+    ${actual_text}                  Get text    xpath://*[@id="questionText"]
     Should be equal                 "${actual_text}"   "What would you like to drive?"
 
 Book car - Audi Q7
