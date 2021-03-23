@@ -7,6 +7,7 @@ pipeline {
                 step(
                     [
                         $class          :       'JacocoPublisher',
+                        execPattern     :       '**/build/**.exec',
                     ]
                 )
             }
