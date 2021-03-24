@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="FooTest" time="0.058" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="FooTest" time="0.106" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Jenkins/Övning/fooproject/target/test-classes:/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Jenkins/Övning/fooproject/target/classes:/Users/jonnahagberg/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/jonnahagberg/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jonnahagberg/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="java.class.path" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Lab 4/target/test-classes:/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Lab 4/target/classes:/Users/jonnahagberg/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/jonnahagberg/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jonnahagberg/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,21 +17,21 @@
     <property name="user.country" value="SE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Jenkins/Övning/fooproject/target/surefire/surefirebooter7355794718923218485.jar /Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Jenkins/Övning/fooproject/target/surefire 2021-03-17T11-17-06_138-jvmRun1 surefire5670238535256427135tmp surefire_05695608868328324933tmp"/>
+    <property name="sun.java.command" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Lab 4/target/surefire/surefirebooter4560365451906520099.jar /Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Lab 4/target/surefire 2021-03-24T13-28-43_066-jvmRun1 surefire2086813031291979836tmp surefire_09165504007859413726tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="surefire.test.class.path" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Jenkins/Övning/fooproject/target/test-classes:/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Jenkins/Övning/fooproject/target/classes:/Users/jonnahagberg/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/jonnahagberg/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jonnahagberg/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Lab 4/target/test-classes:/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Lab 4/target/classes:/Users/jonnahagberg/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/jonnahagberg/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jonnahagberg/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/jonnahagberg/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/jonnahagberg"/>
     <property name="user.language" value="sv"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre"/>
-    <property name="basedir" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Jenkins/Övning/fooproject"/>
+    <property name="basedir" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Lab 4"/>
     <property name="file.separator" value="/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Jenkins/Övning/fooproject/target/surefire/surefirebooter7355794718923218485.jar"/>
+    <property name="surefire.real.class.path" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Lab 4/target/surefire/surefirebooter4560365451906520099.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -46,8 +46,9 @@
     <property name="localRepository" value="/Users/jonnahagberg/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/77/tw37rc4n0598syjh1mw1pp5m0000gn/T/"/>
+    <property name="idea.version" value="2020.3.3"/>
     <property name="java.version" value="1.8.0_271"/>
-    <property name="user.dir" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Jenkins/Övning/fooproject"/>
+    <property name="user.dir" value="/Users/jonnahagberg/Dropbox/IT-Högskolan/Kurser/Automatiserad Testning/Lab 4"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
@@ -61,5 +62,5 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="myMethod" classname="FooTest" time="0.042"/>
+  <testcase name="myMethod" classname="FooTest" time="0.058"/>
 </testsuite>
